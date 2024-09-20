@@ -1,0 +1,444 @@
+@media (min-width: 1440px) {
+  body {
+    margin: 23px;
+  }
+
+  .slide-1 {
+    height: 825px;
+  }
+
+  .header__top {
+    padding-block: 47px;
+    padding-inline: 25px;
+  }
+
+  .header__top-logo {
+    width: 200px;
+    height: 70px;
+  }
+
+  .header__top-burger {
+    width: 78px;
+  }
+
+  .header__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    padding-top: 342px;
+  }
+
+  .header__title-title {
+    font-size: 100px;
+    line-height: 144px;
+  }
+
+  .header__title-arrow {
+    width: 60px;
+    margin: 0px;
+  }
+
+  .header__text {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: start;
+    max-width: 1035px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .pagination {
+    padding-block: 39px;
+  }
+  .pagination img {
+    width: 440px;
+    height: 14px;
+  }
+
+  .slide-2,
+  .slide-3,
+  .slide-4,
+  .slide-5,
+  .slide-6 {
+    height: 825px;
+  }
+
+  .slide-2 {
+    background-image: url("../images/slide-2-desktop.png");
+  }
+
+  .slide-3 {
+    background-image: url("../images/slide-3-desktop.png");
+  }
+
+  .slide-4 {
+    background-image: url("../images/slide-4-desktop.png");
+  }
+
+  .slide-5 {
+    background-image: url("../images/slide-5-desktop.png");
+  }
+
+  .slide-6 {
+    background-image: url("../images/slide-6-desktop.png");
+  }
+
+  .about {
+    margin-top: 19px;
+    padding-inline: 137px;
+    height: 782px;
+  }
+
+  .about__title {
+    gap: 59px;
+  }
+
+  .about__title-title {
+    font-size: 100px;
+    line-height: 144px;
+  }
+
+  .about__arrow {
+    width: 60px;
+  }
+
+  .about__text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .about__vector {
+    width: 69%;
+    height: 93%;
+  }
+
+  .services {
+    margin-top: 68px;
+  }
+
+  .services__title {
+    gap: 46px;
+    margin-right: 126px;
+  }
+
+  .services__title-title {
+    font-size: 100px;
+    line-height: 144px;
+  }
+
+  .services__arrow {
+    width: 60px;
+  }
+
+  .block-wrapper {
+    display: flex;
+    gap: 40px;
+    margin-top: 47px;
+  }
+
+  .block__image-1 {
+    width: 298px;
+  }
+
+  .block__image-2 {
+    width: 380px;
+    left: -61px;
+    bottom: -57px;
+  }
+
+  .services__block-1 {
+    margin-left: 104px;
+    position: relative;
+  }
+
+  .block__text-1 {
+    margin-top: 183px;
+    padding-left: 26px;
+  }
+
+  .block__text-1 p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .block__text-1 span {
+    font-size: 30px;
+    line-height: 43px;
+    padding-top: 30px;
+  }
+
+  .block__text-2 {
+    margin-top: 95px;
+    padding-left: 26px;
+  }
+
+  .block__text-2 p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .block__text-2 span {
+    font-size: 30px;
+    line-height: 43px;
+    padding-top: 30px;
+  }
+
+  .block__text-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 64%;
+    left: -40px;
+  }
+
+  
+  .ellipse {
+    width: 32px;
+  }
+  
+  .line {
+    height: 172px;
+  }
+  
+  .line-height {
+    height: 230px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .services__block-3 {
+    margin-top: 50px;
+  }
+
+  .block__text-4 p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .block__text-4 span {
+    font-size: 30px;
+    line-height: 43px;
+    padding-top: 30px;
+  }
+
+  .block__text-5 {
+    margin-top: 82px;
+  }
+
+  .block__text-5 p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .block__text-5 span {
+    font-size: 30px;
+    line-height: 43px;
+    padding-top: 30px;
+  }
+
+  .block__text-6 {
+    margin-top: 39px;
+  }
+
+  .block__text-6 p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .block__text-6 span {
+    font-size: 30px;
+    line-height: 43px;
+    padding-top: 30px;
+  }
+
+  .block__images-down {
+    margin-top: 50px;
+  }
+
+  .block__image-down-1 {
+    width: 298px;
+  }
+
+  .block__image-down-2 {
+    width: 380px;
+    left: 40px;
+    bottom: -60px;
+  }
+
+  .philosophy {
+    margin-top: 204px;
+    padding-inline: 137px;
+    height: 795px;
+  }
+
+  .philosophy__title {
+    gap: 59px;
+  }
+
+  .philosophy__title-title {
+    font-size: 100px;
+    line-height: 144px;
+  }
+
+  .philosophy__arrow {
+    width: 60px;
+  }
+
+  .philosophy__text {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .philosophy__vector {
+    width: 69%;
+    height: 93%;
+  }
+
+  .contact-us {
+    margin-top: 40px;
+  }
+
+  .contact-way {
+    height: 100px;
+  }
+
+  .way {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+  }
+
+  .way p {
+    font-size: 50px;
+    line-height: 72px;
+  }
+
+  .way img {
+    width: 91px;
+  }
+
+  .form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 103px;
+  }
+
+  form {
+    width: 560px;
+    margin-left: 80px;
+  }
+
+  .form-image {
+    display: inline-block;
+    position: relative;
+    margin-right: 195px;
+  }
+
+  .image-2 {
+    position: absolute;
+    left: 39px;
+    bottom: 0px;
+    z-index: -1;
+  }
+
+  label {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .checkbox {
+    margin-top: 62px;
+  }
+
+  input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  button {
+    margin-top: 62px;
+    width: 287px;
+    height: 78px;
+    font-size: 20px;
+    border-radius: 42px;
+  }
+
+  .footer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 106px;
+  }
+
+  .footer__logo {
+    margin-top: 71px;
+  }
+
+  .footer__logo img {
+    width: 125px;
+  }
+
+  .footer__logo p {
+    font-size: 16px;
+    width: 390px;
+    margin-top: 42px;
+  }
+
+  .footer__quick-links {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+  }
+
+  .footer__title-contacts {
+    margin-top: 34px;
+  }
+
+  .footer__contacts {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+
+  .footer__social-icons {
+    margin-top: 0px;
+    display: flex;
+    gap: 46px;
+  }
+
+  .footer__terms,
+  .footer-copyright {
+    display: none;
+  }
+
+  .footer__terms-and__copyright {
+    display: flex;
+    gap: 24px;
+    margin-top: 46px;
+    padding-bottom: 44px;
+  }
+
+  .footer__terms-and__copyright a {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .footer__terms-and__copyright p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #ffffff;
+  }
+}

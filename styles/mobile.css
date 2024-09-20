@@ -1,0 +1,630 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 11px;
+  background-color: #f0f0f0;
+}
+
+.slide-1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.74) 0%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../images/slide-1-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: 717px;
+  background-position: 40%;
+}
+
+.header__top {
+  padding-block: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.header__top-logo {
+  width: 92px;
+  height: 34px;
+}
+
+.header__top-burger {
+  width: 49px;
+}
+
+.header__title {
+  display: flex;
+  padding-top: 165px;
+}
+
+.header__title-title {
+  font-family: "Jost";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 57.8px;
+  color: #ffffff;
+  padding-inline: 32px;
+}
+
+.header__title-arrow {
+  width: 36px;
+  margin: 53px 57px 0px 0px;
+}
+
+.header__text {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.12px;
+  text-align: left;
+  color: #ffffff;
+  padding-inline: 32px;
+  margin-top: 17px;
+}
+
+.pagination {
+  display: flex;
+  padding-block: 29px;
+  justify-content: center;
+}
+
+.slide-2,
+.slide-3,
+.slide-4,
+.slide-5,
+.slide-6 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: 717px;
+  background-position: center;
+}
+
+.slide-2 {
+  background-image: url("../images/slide-2.png");
+}
+
+.slide-3 {
+  background-image: url("../images/slide-3.png");
+}
+
+.slide-4 {
+  background-image: url("../images/slide-4.png");
+}
+
+.slide-5 {
+  background-image: url("../images/slide-5.png");
+}
+
+.slide-6 {
+  background-image: url("../images/slide-6.png");
+}
+
+.about {
+  background-image: url("../images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: 717px;
+  background-position: center;
+  margin-top: 13px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-inline: 32px;
+
+  position: relative;
+}
+
+.about__title {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.about__title-title {
+  font-family: "Jost";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 57.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about__arrow {
+  width: 36px;
+}
+
+.about__text {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.12px;
+  text-align: left;
+  color: #ffffff;
+  padding-block: 17px 30px;
+}
+
+.about__vector {
+  position: absolute;
+  left: 0;
+  width: 98%;
+  height: 66%;
+}
+
+.services {
+  margin-top: 49px;
+}
+
+.services__title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  margin-right: 41px;
+}
+
+.services__title-title {
+  font-family: "Jost";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 57.8px;
+  text-align: left;
+  color: #000000;
+}
+
+.services__arrow {
+  width: 30px;
+}
+
+.block-wrapper {
+  display: flex;
+  gap: 23px;
+}
+
+.block__images-up {
+  position: relative;
+  margin-top: 29px;
+}
+
+.block__image-1 {
+  width: 100px;
+  margin-left: 52px;
+  z-index: 1;
+}
+
+.block__image-2 {
+  position: absolute;
+  left: 11px;
+  bottom: -21px;
+  width: 128px;
+  z-index: -1;
+}
+
+.block__text-1 {
+  margin-top: 223px;
+  padding-left: 26px;
+}
+
+.block__text-1 p {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.23px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-1 span {
+  display: inline-block;
+  padding-top: 13px;
+  font-family: "Jost";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.34px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-2 {
+  margin-top: 56px;
+  padding-left: 26px;
+}
+
+.block__text-2 p {
+  width: max-content;
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.23px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-2 span {
+  display: inline-block;
+  padding-top: 13px;
+  font-family: "Jost";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.34px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-lines {
+  display: none;
+}
+
+.services__block-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 59px;
+}
+
+.ellipse {
+  width: 19px;
+}
+
+.line {
+  height: 103px;
+}
+
+.services__block-3 {
+  margin-top: 60px;
+}
+
+.block__text-4 p {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.23px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-4 span {
+  display: inline-block;
+  padding-top: 13px;
+  font-family: "Jost";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.34px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-5 {
+  margin-top: 53px;
+}
+
+.block__text-5 p {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.23px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-5 span {
+  display: inline-block;
+  padding-top: 13px;
+  font-family: "Jost";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.34px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-6 {
+  margin-top: 54px;
+}
+
+.block__text-6 p {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20.23px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__text-6 span {
+  display: inline-block;
+  padding-top: 13px;
+  font-family: "Jost";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.34px;
+  text-align: left;
+  color: #000000;
+}
+
+.block__images-down {
+  position: relative;
+  margin-top: 72px;
+}
+
+.block__image-down-1 {
+  width: 102px;
+}
+
+.block__image-down-2 {
+  width: 122px;
+  position: absolute;
+  left: 15px;
+  bottom: -20px;
+  z-index: -1;
+}
+
+.philosophy {
+  background-image: url("../images/philosophy-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: 717px;
+  background-position: center;
+  margin-top: 72px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-inline: 32px;
+
+  position: relative;
+}
+
+.philosophy__title {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.philosophy__title-title {
+  font-family: "Jost";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 57.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.philosophy__arrow {
+  width: 36px;
+}
+
+.philosophy__text {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.12px;
+  text-align: left;
+  color: #ffffff;
+  padding-block: 17px 30px;
+}
+
+.philosophy__vector {
+  position: absolute;
+  left: 0;
+  width: 98%;
+  height: 66%;
+}
+
+.contact-us {
+  margin-top: 22px;
+}
+
+.contact-way {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height: 66px;
+}
+
+.way {
+  display: flex;
+  gap: 10px;
+}
+
+.way p {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20.23px;
+  text-align: left;
+  color: #000000;
+}
+
+.way img {
+  width: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 33px;
+}
+
+.form-image {
+  display: none;
+}
+
+label {
+  margin-top: 51px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  background-color: #f0f0f0;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  background: #f0f0f0;
+
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0 0 10px 10px;
+}
+
+.checkbox {
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label {
+  display: contents;
+}
+
+input[type="checkbox"] {
+  margin-right: 25px;
+  width: 18px;
+  height: 18px;
+}
+
+button {
+  margin-top: 51px;
+  width: 213px;
+  height: 56px;
+  padding: 12px 32px;
+  background-color: #000000;
+  color: #f0f0f0;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #000000;
+  margin-top: 71px;
+  padding-top: 57px;
+  padding-inline: 60px;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.footer__logo img {
+  width: 92px;
+}
+
+.footer__logo p {
+  font-family: "Jost";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.footer__title-links {
+  margin-top: 59px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__quick-links {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__quick-links a {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 8px;
+  text-decoration: none;
+}
+
+.footer__title-contacts {
+  margin-top: 59px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__contacts {
+  margin-top: 24px;
+}
+
+.footer__contacts p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 8px;
+}
+
+.footer__social-icons {
+  margin-top: 59px;
+  display: flex;
+  gap: 38px;
+}
+
+.footer__terms {
+  margin-top: 59px;
+}
+
+.footer__terms a {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 8px;
+}
+
+.footer-copyright {
+  margin-top: 59px;
+  padding-bottom: 56px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__terms-and__copyright {
+  display: none;
+}
